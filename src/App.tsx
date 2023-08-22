@@ -31,8 +31,8 @@ const cityKoreanNames: Record<string, string> = {
   JEJU: '제주도',
 };
 
-const API_KEY = "4f487d3b4e0b2f063fe4b518f0ec87c6";
-// const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = process.env.REACT_APP_API_KEY;
+
 const country_code: String = "KR";   // 국가명 저장
 
 const fetchWeather = async (city: string) => {
