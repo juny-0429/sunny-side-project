@@ -1,15 +1,36 @@
 # Sunnyside App
 
-<br>
+Sunnyside App은 날씨 정보를 비교하고 표시하는 웹 어플리케이션입니다.
 
-### 주제 : 대한민국 지역 두개의 날씨를 비교할 수 있는 APP
+## 사용한 라이브러리 및 버전
 
-### 기간 :
+- [react](https://reactjs.org/): ^18.2.0
+- [react-dom](https://reactjs.org/): ^18.2.0
+- [react-query](https://react-query.tanstack.com/): ^3.39.3
+- [typescript](https://www.typescriptlang.org/): ^4.9.5
+- [node-sass](https://github.com/sass/node-sass): ^7.0.3
 
-### 기술 :
+## 개발 환경
 
-React
-TypeScript
+- [Create React App](https://create-react-app.dev/): react-scripts ^5.0.1
+- [Testing Library](https://testing-library.com/): @testing-library/* ^13.4.0
+- [TypeScript](https://www.typescriptlang.org/): @types/* ^18.2.19
+- [Node.js](https://nodejs.org/): ^16.18.39
+
+## 스크립트
+
+- `start`: 개발 서버 시작
+- `build`: 프로덕션 빌드 생성
+- `test`: 테스트 실행
+- `eject`: Create React App 설정 추출
+
+## 브라우저 호환성
+
+Sunnyside App은 다음 브라우저에서 테스트되었습니다:
+
+- Production: >0.2%, not dead, not op_mini all
+- Development: last 1 chrome version, last 1 firefox version, last 1 safari version
+
 
 <!-- # Getting Started with Create React App
 
