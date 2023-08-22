@@ -1,0 +1,68 @@
+body {
+  background-image: url('./images/weather_img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  text-align: center;
+
+  .appTitle {
+    margin: 5% 0 1% 0;
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  p:not(.appTitle) {
+    margin: 0;
+    font-size: 30px;
+  }
+}
+
+.weather {
+  display: flex;
+  justify-content: space-around;
+
+  .weatherCityBox {
+    width: 100%;
+    margin: 2% 10% 0 10%;
+
+    .weatherSelect {
+      width: 100%;
+      padding: 3% 0 3% 3%;
+      border-radius: 15px;
+      font-size: 1.2rem;
+    }
+
+    .weatherInfo {
+      height: 100%;
+      background-color: #0000008e;
+      border-radius: 15px;
+      color: white;
+      text-align: center;
+    }
+
+    .SCTitle {
+      padding-top: 5%;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .weatherIcon {
+      margin: 0;
+      width: 20rem;
+    }
+
+    .SCTemp {
+      margin: 5% 0 0 0;
+      font-size: 5rem;
+      font-weight: 600;
+    }
+
+    .SCTempMaxMin {
+      margin-top: 3%;
+      font-size: 1.5rem;
+    }
+  }  
+}
+

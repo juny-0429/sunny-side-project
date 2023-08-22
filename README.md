@@ -1,3 +1,16 @@
+# Sunnyside App
+
+<br>
+
+### 주제 : 대한민국 지역 두개의 날씨를 비교할 수 있는 APP
+
+### 기간 :
+
+### 기술 :
+
+React
+TypeScript
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
